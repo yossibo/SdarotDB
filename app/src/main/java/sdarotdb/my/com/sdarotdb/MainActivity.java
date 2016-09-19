@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
      //   fillDummyData();
 
 
+
+
         ListView sdarotLV= (ListView) findViewById(R.id.sdarotLV);
 
         cursor= myHelper.getReadableDatabase().query(DBConstants.tableName, null,null, null,null,null,null);
@@ -40,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         sdarotLV.setAdapter(adapter);
 
-        Log.d("dsfsd","");
+       // Log.d("dsfsd","");
 
 
 
